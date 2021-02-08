@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yshan/linux_nonblocking_kbhit/keyboard.cpp
+signal.h
+-
+stdio.h
+-
+stropts.h
+-
+sys/ioctl.h
+-
+sys/select.h
+-
+sys/types.h
+-
+termios.h
+-
+
+/home/yshan/linux_nonblocking_kbhit/keyboard.hpp
+
+/home/yshan/linux_nonblocking_kbhit/main.cpp
+iostream
+-
+chrono
+-
+thread
+-
+string
+-
+cmath
+-
+keyboard.hpp
+/home/yshan/linux_nonblocking_kbhit/keyboard.hpp
+atomic
+-
+
